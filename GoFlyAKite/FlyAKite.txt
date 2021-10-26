@@ -1,0 +1,102 @@
+<! DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+<title>Go Fly A Kite</title>
+</head>
+<header><h1>Go Fly a Kite</h1></header>
+<nav>
+    <a href="#">Deltas</a>
+    <a href="#">Diamonds</a>
+    <a href="#">Box</a>
+    <a href="#">Specialty</a>
+    <a href="#">Contact</a>
+</nav>
+<body>
+<table>
+    <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+    </tr>
+    <tr>
+        <td><img src="images/kite1.jpg" alt="First Kite" style="width:200px;height:230px;"></td>
+        <td><img src="images/kite2.jpg" alt="Second Kite"style="width:200px;height:230px;"></td>
+        <td><img src="images/kite4.jpg" alt="Fourth Kite"style="width:200px;height:230px;"></td>
+        <td><img src="images/kite3.jpg" alt="Third Kite"style="width:200px;height:230px;"></td>
+    </tr><tr>
+    <td><a href="#">Deltas</a></td>
+    <td><a href="#">Diamonds</a></td>
+    <td><a href="#">Box</a></td>
+    <td><a href="#">Specialty</a></td>
+    </tr>
+    </table>
+    
+<br><br>
+<div>    
+    <table>
+        <tr><td><img src="images/kite1.jpg" alt="First Kite"style="width:200px;height:230px;"></td>
+    <td><h2>Delta Knives</h2>
+        <p>Do not go gentle into that good night; Old age should burn and rave at close of day. Rage, rage against the dying of the light.</p></td></tr>
+    </table>    
+</div>
+
+<br><br>
+    
+<div>
+    <table>
+    <tr><td><h2>Diamond Knives</h2>
+        <p>Do not go gentle into that good night; Old age should burn and rave at close of day. Rage, rage against the dying of the light.</p></td>
+        <td><img src="images/kite2.jpg" alt="Second Kite"style="width:200px;height:230px;"></td></tr>
+    </table>
+    </div>
+    
+    
+<br><br>
+<div>    
+    <table>
+        <tr><td><img src="images/kite4.jpg" alt="Fourth Kite"style="width:200px;height:230px;"></td>
+    <td><h2>Box Kites</h2>
+        <p>Do not go gentle into that good night; Old age should burn and rave at close of day. Rage, rage against the dying of the light.</p></td></tr>
+    </table>    
+</div>   
+    
+    <br><br>
+    
+<div>
+    <table>
+    <tr><td><h2>Specialty Kites</h2>
+        <p>Do not go gentle into that good night; Old age should burn and rave at close of day. Rage, rage against the dying of the light.</p></td>
+        <td><img src="images/kite3.jpg" alt="Third Kite"style="width:200px;height:230px;"></td></tr>
+    </table>
+    </div>
+    
+<div>
+    <form action="FlyAkite.php" method="POST">
+    <h2>Contact Us</h2>
+    <input type="text" placeholder="First Name" name="Fname">
+    <input type="text" placeholder="Last Name" name="Lname"><br>
+    <input type="text" placeholder="Email Address" name="Email">
+    <input type="text" placeholder="Phone Number" name="Pnumber"><br>
+    <textarea name="Comments" rows="10" cols="75" placeholder="Comments"></textarea><br>
+    <input type="checkbox" name="newsletter">
+    <p>please sign me up for the Go Fly A Kite newsletter.</p>
+    <br>
+    <button type="submit" name="submit">Submit</button>
+    </form>
+    </div>    
+    
+    <footer>
+    <p>Kite in the Sky by Karen licensed under CC-BY-SA 2.0 Art4 Celebration of the Sky 2013 by Steve is licensed under CC-BY-NC-SA 2.0 Pirates Be There by Bart licensed under CC-BY-NC 2.0
+        </p>    
+    
+    </footer>
+
+    
+    
+    
+         </body>
+
+    
+</html>
